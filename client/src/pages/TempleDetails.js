@@ -24,9 +24,9 @@ function TempleDetails() {
   });
 
   useEffect(() => {
-    fetchTemple();
-    fetchReviews();
-  }, []);
+  fetchTemple();
+  fetchReviews();
+}, [id]);
 
   const fetchTemple = async () => {
     try {

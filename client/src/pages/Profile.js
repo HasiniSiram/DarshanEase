@@ -11,8 +11,10 @@ function Profile() {
   const [bookings, setBookings] = useState([]);
 
   useEffect(() => {
+  if (email) {
     fetchProfile();
-  }, []);
+  }
+}, [email]);
 
   const fetchProfile = async () => {
     try {

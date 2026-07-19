@@ -10,8 +10,8 @@ function EditTemple() {
   const [imageFile, setImageFile] = useState(null);
 
   useEffect(() => {
-    fetchTemple();
-  }, []);
+  fetchTemple();
+}, [id]);
 
   const fetchTemple = async () => {
     try {
