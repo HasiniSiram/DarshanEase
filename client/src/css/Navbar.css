@@ -1,0 +1,71 @@
+nav {
+  background: linear-gradient(
+    90deg,
+    #8B0000,
+    #d35400
+  );
+  color: white;
+  padding: 15px 40px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.25);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav h2 {
+  margin: 0;
+  font-size: 32px;
+  color: #ffe082;
+  letter-spacing: 1px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  position: relative;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+
+/* Hover effect */
+nav a:hover {
+  color: #ffe082;
+}
+
+
+/* Active page */
+nav a.active {
+  color: #ffe082;
+}
+
+
+/* Underline animation */
+nav a::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 3px;
+  background: #ffe082;
+  left: 0;
+  bottom: -8px;
+  transition: 0.3s;
+}
+
+nav a:hover::after,
+nav a.active::after {
+  width: 100%;
+}

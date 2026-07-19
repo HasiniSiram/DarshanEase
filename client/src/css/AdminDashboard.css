@@ -1,0 +1,120 @@
+.admin-container {
+  min-height: 100vh;
+  padding: 40px;
+  background: linear-gradient(
+    to right,
+    #fff7e6,
+    #ffe0b2
+  );
+}
+
+.dashboard-cards {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.dashboard-card {
+  flex: 1;
+  min-width: 220px;
+  background: linear-gradient(135deg, #ff9933, #ffcc80);
+  color: white;
+  padding: 25px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border: 2px solid rgba(255,255,255,0.3);
+backdrop-filter: blur(5px);
+}
+
+.dashboard-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+
+.dashboard-card h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.dashboard-card p {
+  font-size: 18px;
+}
+.admin-container h1 {
+  text-align: center;
+  color: #8B0000;
+  font-size: 42px;
+  margin-bottom: 30px;
+}
+.quick-actions {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.quick-actions h2 {
+  color: #8B0000;
+  margin-bottom: 20px;
+}
+
+.quick-actions button {
+  background: linear-gradient(135deg, #8B0000, #c62828);
+  color: white;
+  border: none;
+  padding: 12px 22px;
+  margin: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.quick-actions button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+}
+table {
+  width: 100%;
+  background: white;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+}
+
+th {
+  background: #8B0000;
+  color: white;
+  padding: 15px;
+}
+
+td {
+  padding: 12px;
+}
+
+tr:nth-child(even) {
+  background: #FFF7E6;
+}
+tbody tr {
+  transition: 0.3s;
+}
+
+tbody tr:hover {
+  background: #ffe0b2;
+  transform: scale(1.01);
+}
+.revenue-card {
+  background: linear-gradient(
+    135deg,
+    #2e7d32,
+    #66bb6a
+  );
+}
+.temple-card {
+  background: linear-gradient(
+    135deg,
+    #1565c0,
+    #42a5f5
+  );
+}

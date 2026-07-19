@@ -1,0 +1,72 @@
+.login-container {
+  min-height: 100vh;
+  background: linear-gradient(
+    to right,
+    #fff7e6,
+    #ffe0b2
+  );
+  padding: 40px 20px;
+}
+
+.book-ticket-box {
+  max-width: 750px;
+  margin: auto;
+  background: white;
+  padding: 30px;
+  border-radius: 25px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+}
+
+.book-ticket-box h2 {
+  text-align: center;
+  color: #8B0000;
+  margin-bottom: 25px;
+}
+
+.book-ticket-box input,
+.book-ticket-box select {
+  width: 100%;
+  padding: 14px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  font-size: 16px;
+}
+
+.book-ticket-box button {
+  width: 100%;
+  background: #8B0000;
+  color: white;
+  border: none;
+  padding: 15px;
+  border-radius: 12px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.book-ticket-box button:hover {
+  background: #a50000;
+}
+.book-ticket-box button {
+  width: 100%;
+  padding: 16px;
+  border: none;
+  border-radius: 15px;
+  background: linear-gradient(
+    135deg,
+    #8B0000,
+    #d32f2f
+  );
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+  box-shadow: 0 5px 15px rgba(139, 0, 0, 0.3);
+}
+
+.book-ticket-box button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(139, 0, 0, 0.4);
+}

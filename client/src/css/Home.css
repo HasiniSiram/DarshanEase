@@ -1,0 +1,91 @@
+.home {
+  height: 90vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.45);
+  padding: 50px;
+  border-radius: 20px;
+  text-align: center;
+  color: white;
+  width: 70%;
+  backdrop-filter: blur(5px);
+}
+
+.overlay h1 {
+  font-size: 60px;
+  color: #FFD700;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
+}
+
+.overlay h2 {
+  margin-top: 10px;
+  font-size: 30px;
+}
+
+.overlay p {
+  font-size: 20px;
+  line-height: 1.7;
+}
+
+.overlay button {
+  margin-top: 25px;
+  padding: 15px 35px;
+  background: #FFD700;
+  color: #5D4037;
+  border: none;
+  border-radius: 40px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.overlay button:hover {
+  background: #FFC107;
+}
+.buttons{
+    margin-top:30px;
+}
+
+.book-btn{
+    background:#FFD700;
+    color:#5D4037;
+    border:none;
+    padding:15px 35px;
+    font-size:18px;
+    border-radius:40px;
+    cursor:pointer;
+    margin-right:20px;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.book-btn:hover{
+    transform:translateY(-4px);
+    background:#FFC107;
+}
+
+.explore-btn{
+    background:transparent;
+    border:2px solid white;
+    color:white;
+    padding:15px 35px;
+    font-size:18px;
+    border-radius:40px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.explore-btn:hover{
+    background:white;
+    color:#5D001E;
+}
