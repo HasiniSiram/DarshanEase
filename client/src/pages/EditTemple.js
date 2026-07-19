@@ -9,7 +9,8 @@ function EditTemple() {
   const [temple, setTemple] = useState(null);
   const [imageFile, setImageFile] = useState(null);
 
-  useEffect(() => {
+ // eslint-disable-next-line react-hooks/exhaustive-deps
+useEffect(() => {
   fetchTemple();
 }, [id]);
 

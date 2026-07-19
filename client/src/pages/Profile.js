@@ -10,11 +10,10 @@ function Profile() {
   console.log("Email:", email);
   const [bookings, setBookings] = useState([]);
 
-  useEffect(() => {
-  if (email) {
-    fetchProfile();
-  }
-}, [email]);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+useEffect(() => {
+  fetchProfile();
+}, []);
 
   const fetchProfile = async () => {
     try {

@@ -23,10 +23,11 @@ function TempleDetails() {
     comment: "",
   });
 
-  useEffect(() => {
+ // eslint-disable-next-line react-hooks/exhaustive-deps
+useEffect(() => {
   fetchTemple();
   fetchReviews();
-}, [id]);
+}, []);
 
   const fetchTemple = async () => {
     try {
